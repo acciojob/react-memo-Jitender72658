@@ -11,9 +11,11 @@ const Todo = ()=>{
         <div>
             <p>My Todos</p>
             <div>
-               {list.map((element, index) => (
-                 <p key={index}>{element}</p>
-               ))}
+               {list.map((element, index) => {
+                      let id = "todo-"+index;
+                  return <p key={id}>{element}</p>
+               }
+               )}
              </div>
             <button id="add-todo-btn" onClick={addTodo}>Add Todo</button>
         </div>

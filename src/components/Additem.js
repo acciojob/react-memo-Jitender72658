@@ -14,8 +14,8 @@ const Additem = ()=>{
     }
     return (
         <div>
-            <input onChange={updateValue}/> 
-            <button id="skill-input" onClick={addItem}>Submit</button>
+            <input id="skill-input" onChange={updateValue}/> 
+            <button id="skill-btn" onClick={addItem}>Submit</button>
             <ul>
               { items.map((value,index)=>{
                   return  <li key={index}>{value}</li>
