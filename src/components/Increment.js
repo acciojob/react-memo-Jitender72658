@@ -8,7 +8,7 @@ const Increment = ()=>{
      return (
         <div>
             <span>Count {" "} {count}{" "}</span>
-            <button onClick={increseCount}>+</button>
+            <button id="incr-cnt" onClick={increseCount}>+</button>
         </div>
      )
 }

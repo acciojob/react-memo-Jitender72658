@@ -5,7 +5,7 @@ import Additem from "./Additem"
 
 const App = ()=>{
     return(
-        <div>
+        <div id="#main">
             <Todo/>
             <Increment/>
             <Additem/>

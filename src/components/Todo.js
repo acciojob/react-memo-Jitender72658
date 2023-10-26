@@ -15,7 +15,7 @@ const Todo = ()=>{
                  <p key={index}>{element}</p>
                ))}
              </div>
-            <button onClick={addTodo}>Add Todo</button>
+            <button id="add-todo-btn" onClick={addTodo}>Add Todo</button>
         </div>
     )
 }
