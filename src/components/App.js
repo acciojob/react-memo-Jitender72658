@@ -1,2 +1,15 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+import React from "react";
+import Todo from "./Todo";
+import Increment from "./Increment";
+import Additem from "./Additem"
 
+const App = ()=>{
+    return(
+        <div>
+            <Todo/>
+            <Increment/>
+            <Additem/>
+        </div>
+    )
+}
+export default App;
